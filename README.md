@@ -25,7 +25,11 @@ git init
 ```
 Это лишь некоторые функции markdown. 
 
-line  
-----
-line  
-а нахуя
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
